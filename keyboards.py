@@ -4,7 +4,7 @@ main = ReplyKeyboardMarkup(resize_keyboard=True)
 main.add('Играть','Рейтинг','Сообщение админу')
 
 main_admin = ReplyKeyboardMarkup(resize_keyboard=True)
-main_admin.add('Играть','Рейтинг','Сообщение админу','Пополнение')
+main_admin.add('Играть','Рейтинг','Сообщение админу','Пополнение','Сообщение','Список')
 
 game = ReplyKeyboardMarkup(resize_keyboard=True)
 game.add('10','100','1000','Выйти')
